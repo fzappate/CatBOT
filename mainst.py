@@ -15,7 +15,8 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Title
-st.title("🐱📚 Chatbot - Powered by Streamlit + OpenAI")
+st.title("🐱📚 CatBOT - Purrrfect bot for financial advice")
+st.subheader("Ask me anything... about finance, life, or tuna 🐟!")
 
 # User input
 user_input = st.text_input("You:", key="input")
