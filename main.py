@@ -1,9 +1,11 @@
 import streamlit as st
 import openai as oai
-
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
 # Set your API key
-oai.api_key = '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'
+oai.api_key =  os.getenv('OPEN_AI_API_KEY')
 
 
 # Set your API keyhi
